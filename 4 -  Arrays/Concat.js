@@ -5,4 +5,4 @@ const acompanhamento = ['whey', 'granola', 'aveia', 'chia']
 
 const vitamina = frutas.concat(acompanhamento)
 
-console.log(vitamina)
+console.table(vitamina)

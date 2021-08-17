@@ -15,7 +15,7 @@ console.log(tvShow.indexOf('Team'))
 console.log(tvShow.indexOf('w'))
 
 let basketBall = 'Lebron James'
-console.log(basketBall.slice(0,5)); // Remove o caracter (inicio/fim)
+console.log(basketBall.slice(0,5)); // Corta/Remove o caracter (inicio/fim)
 
 let halls = 'halls preto'
 console.log(halls.replace('preto', 'uva verde')); // Substitui a palavra por outra 

@@ -1,4 +1,4 @@
-// Representado pelo símbolo !!
+// Representado pelo símbolo !! - 'Negação'
 
 let loggedInUser;
 

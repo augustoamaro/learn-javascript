@@ -4,5 +4,4 @@ const frutas = ['banana', 'morango', 'maçã', 'mamão']
 const acompanhamento = ['whey', 'granola', 'aveia', 'chia']
 
 const vitamina = frutas.concat(acompanhamento)
-
-console.table(vitamina)
+console.log(vitamina) // 'banana', 'morango', 'maçã', 'mamão', 'whey', 'granola','aveia', 'chia'

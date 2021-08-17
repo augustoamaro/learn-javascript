@@ -1,7 +1,7 @@
 // Cada caracter corresponde a um índice (uma posição númerica)
 // Strings são imutáveis
 
-"hello".length // 5
+"hello".length // tamanho da string é 5
 
 let mySong = "Window Shopper"
 

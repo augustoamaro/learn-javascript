@@ -1,3 +1,5 @@
+// Array dentro de array
+
 const drinks = [
     ['suco', 'laranja'],
     ['refrigerante', 'guarana'],

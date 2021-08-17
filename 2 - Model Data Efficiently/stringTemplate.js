@@ -1,4 +1,4 @@
-// Template String
+// Template String - Usado crase e ${}
 // Interpolacção de String
 
 const animal = 'lobo';
@@ -12,4 +12,4 @@ console.log(`Resultado: ${soma1 + soma2}`);
 let item = 'tangerina';
 let price = 1.99;
 let qty = 5;
-console.log(`Você comprou ${qty} ${item}. Valor total: ${price * qty}`);
+console.log(`Você comprou ${qty} ${item}. Valor total: ${price * qty}`); 

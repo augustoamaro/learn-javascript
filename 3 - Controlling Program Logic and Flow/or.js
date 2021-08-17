@@ -1,4 +1,4 @@
-// Representado pelo símbolo || pipe
+// Representado pelo símbolo || pipe  'Ou'
 
 let age = 30
 

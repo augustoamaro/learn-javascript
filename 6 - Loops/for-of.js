@@ -16,19 +16,19 @@ const movieReviews = {
 	Coraline               : 7.5
 };
 
-// THIS DOES NOT WORK!
-// OBJECTS ARE NOT ITERABLE (can't use a for...of loop)
+// ISSO NAO FUNCIONA
+// OBJECTS NÃO SAO ITERÁVEIS (não da de usar for ... of loop)
 // for (let x of movieReviews) {
 // 	console.log(x);
 // }
 
-// We CAN iterate over the keys of an object
+// É possível iterar com um objeto com of
 for (let movie of Object.keys(movieReviews)) {
 	console.log(`You rated ${movie} - ${movieReviews[movie]}`);
 }
 
-// We can also iterate over the values
-// To calculate the average movie rating:
+// É possível iterar sobre os valores
+
 const ratings = Object.values(movieReviews);
 let total = 0;
 for (let r of ratings) {

@@ -6,4 +6,4 @@ let gameOver = false;
 const isWaterWet = true;
 
 const isHungry = true;
-console.log(isHungry);
+console.log(isHungry); // true

@@ -1,3 +1,5 @@
+// O método includes() determina se um array contem um determinado elemento, retornando true e false
+
 let ingredients = [
     'water',
     'sugar',

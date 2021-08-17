@@ -1,3 +1,5 @@
+// If dentro de If, Array dentro de Array
+
 let password = 'dragonball'
 
 if (password.length >= 6) {

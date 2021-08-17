@@ -1,3 +1,5 @@
+// O método splice() altera o conteúdo de uma lista, adicionando novos elemtnos enquanto remove elementos antigos
+
 let animals = [ 'shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise' ];
 
 //splice(startIdx, deleteCount, itemsToInsert);

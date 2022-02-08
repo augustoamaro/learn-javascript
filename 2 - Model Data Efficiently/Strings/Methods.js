@@ -1,4 +1,5 @@
-
+// Strings vem com um conjunto de métodos que são ações
+// Substituir partes de uma string, mudar para maiúsculo, etc...
 
 let msg = 'they dont know me son'
 console.log(msg.toLocaleUpperCase()) // Maiusculo
@@ -14,8 +15,8 @@ console.log(tvShow.indexOf('Seal'))
 console.log(tvShow.indexOf('Team'))
 console.log(tvShow.indexOf('w'))
 
-let basketBall = 'Lebron James'
-console.log(basketBall.slice(0,5)); // Corta/Remove o caracter (inicio/fim)
+let basketPlayer = 'Lebron James'
+console.log(basketPlayer.slice(0,5)); // Corta/Remove o caracter (inicio/fim)
 
 let halls = 'halls preto'
 console.log(halls.replace('preto', 'uva verde')); // Substitui a palavra por outra 

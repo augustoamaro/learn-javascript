@@ -12,4 +12,6 @@ const step2 = step1 * 10
 const step3 = Math.floor(step2);
 const step4 = step3 + 1;
 
-Math.floor(Math.random() * 10) + 1;
+// Número inteiro
+const integerNumber = Math.floor(Math.random() * 10) + 1;
+console.log(integerNumber)

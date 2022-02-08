@@ -1,4 +1,5 @@
 // Determinar o tipo de tal valor
 
-typeof mystery // String
-typeof null // Object
+const mystery = 'Janela Indiscreta';
+console.log(typeof mystery) // String
+console.log(typeof null) // Object

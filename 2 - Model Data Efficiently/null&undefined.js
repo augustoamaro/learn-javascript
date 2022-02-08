@@ -1,4 +1,4 @@
-// Null - Ausência intencional de qualquer valor, precisar se atribuido
+// Null - Ausência intencional de qualquer valor, precisa ser atribuido
 //Undefined - Variáveis que não tenham nenhum valor de atribuição
 
 // Sem ninguém logar

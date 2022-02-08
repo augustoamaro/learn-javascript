@@ -1,13 +1,12 @@
- /* 
- > maior que
- < menor que
- >= maior ou igual
- <= menor ou igual
- == igual
- != diferente
- === igual checando o tipo
- !== diferente checando o tipo
- */
+ 
+ // > maior que
+ // < menor que
+ // >= maior ou igual
+ // <= menor ou igual
+ // == igual
+ // != diferente
+ // === igual checando o tipo
+ // !== diferente checando o tipo
 
  10 > 1 // true
  0.2 > 0.3 // false

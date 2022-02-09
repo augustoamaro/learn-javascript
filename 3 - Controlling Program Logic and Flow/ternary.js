@@ -1,8 +1,10 @@
 // condição ? expressão Verdadeiro : expressão Falso
 
-let status = 'offline';
+let statusOfSwitch = 'offline';
 
-let color = status === 'offline' ? 'red' : 'green'
+let color = statusOfSwitch === 'offline' ? 'red' : 'green'
 console.log(color);
 
 
+let number = 7;
+number === 7 ? console.log('Lucky') : console.log('Unlucky');

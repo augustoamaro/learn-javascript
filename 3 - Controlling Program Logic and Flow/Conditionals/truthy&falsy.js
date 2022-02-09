@@ -1,3 +1,7 @@
+// Todos os valores podem ser verdadeiro ou falso
+// falso: false, 0 "", null, undefined, NaN
+// verdadeiro: todo o resto
+
 let mistery = 0 / 0;
 
 if (mistery) {

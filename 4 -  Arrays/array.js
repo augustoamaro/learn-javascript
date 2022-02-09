@@ -1,4 +1,7 @@
 // Listas, Coleções
+// Ex: Lista de comentários do Instragram
+// Coleção de leveis em um jogo
+// Músicas em uma playlist
 
 let students = [];
 let colors = ['red', 'orange', 'green']

@@ -1,19 +1,19 @@
 let fruits = ['watermelon', 'apple', 'orange', 'tangetina'];
 
 for (fruit of fruits) { // 
-	console.log(fruit);
+  console.log(fruit);
 }
 
 //Objects
 const movieReviews = {
-	Arrival: 9.5,
-	Alien: 9,
-	Amelie: 8,
-	'In Bruges': 9,
-	Amadeus: 10,
-	'Kill Bill': 8,
-	'Little Miss Sunshine': 8.5,
-	Coraline: 7.5
+  Arrival: 9.5,
+  Alien: 9,
+  Amelie: 8,
+  'In Bruges': 9,
+  Amadeus: 10,
+  'Kill Bill': 8,
+  'Little Miss Sunshine': 8.5,
+  Coraline: 7.5
 };
 
 // ISSO NAO FUNCIONA
@@ -24,7 +24,7 @@ const movieReviews = {
 
 // É possível iterar com um objeto com of
 for (let movie of Object.keys(movieReviews)) {
-	console.log(`You rated ${movie} - ${movieReviews[movie]}`);
+  console.log(`You rated ${movie} - ${movieReviews[movie]}`);
 }
 
 // É possível iterar sobre os valores
@@ -32,7 +32,7 @@ for (let movie of Object.keys(movieReviews)) {
 const ratings = Object.values(movieReviews);
 let total = 0;
 for (let r of ratings) {
-	total += r;
+  total += r;
 }
 let avg = total / ratings.length;
 console.log('Average Rating: ', avg);

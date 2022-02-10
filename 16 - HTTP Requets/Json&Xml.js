@@ -12,6 +12,6 @@
 //XML
 
 <name>
-    <firstName>Colt</firstName>
-    <lastName>Steele</lastName>
+  <firstName>Colt</firstName>
+  <lastName>Steele</lastName>
 </name>

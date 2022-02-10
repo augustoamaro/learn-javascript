@@ -1,5 +1,5 @@
-let nums = [ 1, 2, 3 ];
-let mystery = [ 1, 2, 3 ];
+let nums = [1, 2, 3];
+let mystery = [1, 2, 3];
 let moreNums = nums;
 
 //They 'look' the same, but refer to different arrays
@@ -9,9 +9,9 @@ nums === mystery; // false
 nums === moreNums; //true
 
 const user = {
-	username      : 'CherryGarcia8',
-	email         : 'garcia@gmail.com',
-	notifications : [ 'message', 'alert' ]
+	username: 'CherryGarcia8',
+	email: 'garcia@gmail.com',
+	notifications: ['message', 'alert']
 };
 
 //THIS WILL NOT WORK!

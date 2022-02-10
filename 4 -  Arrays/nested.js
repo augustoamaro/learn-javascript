@@ -14,7 +14,7 @@ console.log(drinks[2][1]);
 
 const board = [
     ['0', null, 'X'],
-    [null,'X','0'],
+    [null, 'X', '0'],
     [null, 'X', '0']
 ]
 

@@ -1,19 +1,19 @@
 let fruits = ['watermelon', 'apple', 'orange', 'tangetina'];
 
 for (fruit of fruits) { // 
-    console.log(fruit);
+	console.log(fruit);
 }
 
 //Objects
 const movieReviews = {
-	Arrival                : 9.5,
-	Alien                  : 9,
-	Amelie                 : 8,
-	'In Bruges'            : 9,
-	Amadeus                : 10,
-	'Kill Bill'            : 8,
-	'Little Miss Sunshine' : 8.5,
-	Coraline               : 7.5
+	Arrival: 9.5,
+	Alien: 9,
+	Amelie: 8,
+	'In Bruges': 9,
+	Amadeus: 10,
+	'Kill Bill': 8,
+	'Little Miss Sunshine': 8.5,
+	Coraline: 7.5
 };
 
 // ISSO NAO FUNCIONA

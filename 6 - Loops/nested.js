@@ -1,15 +1,15 @@
 for (let i = 1; i <= 10; i++) {
-    console.log('Outer Loop: ', i);
-    for (let j = 10; j >= 0 ; j -= 2) {
-        console.log(' Inner Loop: ', j);
-    }
+	console.log('Outer Loop: ', i);
+	for (let j = 10; j >= 0; j -= 2) {
+		console.log(' Inner Loop: ', j);
+	}
 }
 
 const gameBoard = [
-	[ 4, 32, 8, 4 ],
-	[ 64, 8, 32, 2 ],
-	[ 8, 32, 16, 4 ],
-	[ 2, 8, 4, 2 ]
+	[4, 32, 8, 4],
+	[64, 8, 32, 2],
+	[8, 32, 16, 4],
+	[2, 8, 4, 2]
 ];
 
 let totalScore = 0;

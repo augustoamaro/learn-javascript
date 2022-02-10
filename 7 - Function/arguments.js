@@ -12,11 +12,9 @@ function rollDice() {
 }
 
 function throwDice(numRolss) {
-    for(let i = 0; i < numRolss; i++) { // executa a função 5x
+    for (let i = 0; i < numRolss; i++) { // executa a função 5x
         rollDice()
     }
 }
 
 throwDice(10)
-
-

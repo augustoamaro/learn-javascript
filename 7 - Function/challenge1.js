@@ -2,7 +2,7 @@ function isValidPassword(password, username) {
     if (password < 8) {
         return false;
     }
-    if(password.indexOf(' ') !== -1) {
+    if (password.indexOf(' ') !== -1) {
         return false;
     }
     if (password.indexOf(username) !== -1) {
@@ -14,10 +14,10 @@ function isValidPassword(password, username) {
 // Alternativa
 
 function isValidPassword(password, username) {
-    if(
-        password < 8 || 
-        password.indexOf(' ') !== -1 || 
-        password.indexOf(username) !== -1 ) {
+    if (
+        password < 8 ||
+        password.indexOf(' ') !== -1 ||
+        password.indexOf(username) !== -1) {
         return false;
     }
     return true;
@@ -29,6 +29,6 @@ function isValidPassword(password, username) {
     const tooShort = password < 8
     const hasSpace = password.indexOf(' ') !== -1
     const tooSimilar = password.indexOf(username) !== -1
-        if (tooShort || hasSpace || tooSimilar) return false;     
-         return true;
+    if (tooShort || hasSpace || tooSimilar) return false;
+    return true;
 }

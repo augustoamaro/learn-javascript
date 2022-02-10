@@ -4,7 +4,7 @@ function rollDice() {
 }
 
 function throwDice() {
-    for(let i = 0; i < 5; i++) { // executa a função 5x
+    for (let i = 0; i < 5; i++) { // executa a função 5x
         rollDice()
     }
 }

@@ -1,5 +1,4 @@
-// Operadores unários é uma operação, composta por dois simbolos, que não precisam estar necessariamente entre dois termos
-
+// Operadores unários é uma operação, composta por dois simbolos, que não precisam estar necessariamente entre dois termos.
 
 let score = 0;
 score = score + 10;

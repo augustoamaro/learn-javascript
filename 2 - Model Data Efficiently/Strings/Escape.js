@@ -4,7 +4,7 @@
 // \\ - backslash
 
 const quote = "me diga algo importante, \"mas nem tanto\"" // Aspas em strings
-console.log(quote)
+console.log(quote);
 
 const hello = 'Hello"\nGoodbye"' // Pula linha
 console.log(hello);

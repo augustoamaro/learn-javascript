@@ -1,7 +1,7 @@
 function avg(arr) {
     let total = 0;
 
-    for(let num of arr) {
+    for (let num of arr) {
         total += num;
     }
 

@@ -1,7 +1,6 @@
-// Tipos primitivos
-// Number, String, Boolean, Null, Undefined
-// Tecnicamente existe outras duas: Symbol e BigInt
-
+// Tipos primitivos.
+// Number, String, Boolean, Null, Undefined.
+// Tecnicamente existe outras duas: Symbol e BigInt.
 
 let number = 5 // Number
 let greeting = 'Hello JS' // String

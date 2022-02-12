@@ -14,11 +14,11 @@ const user = {
 	notifications: ['message', 'alert']
 };
 
-//THIS WILL NOT WORK!
+// Não funciona [] === [] false
 if (user.notifications === []) {
 	console.log('NO NEW NOTIFICATIONS!');
 }
-// THIS VERSION DOES WORK!
+// Funciona
 if (!user.notifications.length) {
 	console.log('NO NEW NOTIFICATIONS!');
 }

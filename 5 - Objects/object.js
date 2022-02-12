@@ -1,3 +1,5 @@
+// Objetos são coleções de propriedades
+// Tem um valor chave par
 
 const fitBitData = {
     totalSteps: 3034,

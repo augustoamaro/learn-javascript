@@ -29,3 +29,5 @@ const shoppingCart = [
     qty: 1,
   }
 ]
+
+console.log(shoppingCart[1].product) // game pass

@@ -32,3 +32,6 @@ function isValidPassword(password, username) {
   if (tooShort || hasSpace || tooSimilar) return false;
   return true;
 }
+
+const password2 = isValidPassword('140292929', 'augusto');
+console.log(password2);

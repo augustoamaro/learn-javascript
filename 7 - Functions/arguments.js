@@ -11,10 +11,10 @@ function rollDice() {
   console.log(`Rolled: ${roll}`);
 }
 
-function throwDice(numRolss) {
-  for (let i = 0; i < numRolss; i++) { // executa a função 5x
+function throwDice(numRolls) {
+  for (let i = 0; i < numRolls; i++) { // executa a função 5x
     rollDice()
   }
 }
 
-throwDice(10)
+throwDice(2);

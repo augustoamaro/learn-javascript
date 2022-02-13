@@ -9,3 +9,12 @@ function learnProgramming() { // declarando a função
 }
 
 learnProgramming() // executando a função
+
+
+function dogs() {
+  console.log('Boxer');
+  console.log('Beagle');
+  console.log('Labrador');
+}
+
+dogs()

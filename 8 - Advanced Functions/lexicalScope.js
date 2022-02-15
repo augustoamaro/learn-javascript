@@ -1,19 +1,20 @@
-// function outer() {
-//     let movie = 'Amadeus';
+function fora() {
+    let song = 'Singing in the Rain';
 
-//     function inner() {
-//         let movie = 'The Shining'
-//         console.log(movie.toUpperCase());
-//     }
-//     inner()
-// }
+    function dentro() {
+        let song = 'Housewife';
+        console.log(song.toUpperCase());
+    }
+    dentro()
+}
 
 function outer() {
-    let movie = 'Amadeus';
+    let movie = '60 Segundos';
 
     function inner() {
-        let movie = 'The Shining'
+        let movie = 'Velozes e Furiosos'
         console.log(movie.toUpperCase());
+        
         function extraInner() {
             console.log(movie.toUpperCase());
         }

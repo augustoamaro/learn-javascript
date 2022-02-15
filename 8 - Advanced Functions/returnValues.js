@@ -1,4 +1,4 @@
-// This function returns a function!
+// Esssa função retorna uma função.
 function multiplyBy(num) {
     return function (x) {
       return x * num;

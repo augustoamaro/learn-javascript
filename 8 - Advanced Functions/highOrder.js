@@ -1,3 +1,5 @@
+// Funções são objetos
+
 function add(x, y) {
     return x + y;
 }

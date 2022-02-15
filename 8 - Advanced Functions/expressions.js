@@ -12,7 +12,7 @@ const square = function (x) {
   return x * x
 }
 
-square(4)
+console.log(square(4))
 
 
 

@@ -1,29 +1,31 @@
-//These variables are SCOPED to the function
+// as variáveis person, age e color são do scopo da função lol()
 function lol() {
     let person = 'Tom';
     const age = 45;
     var color = 'teal';
     console.log(age);
   }
-  // These variables are SCOPED to changeColor()
+
+  // as variáveis color e age são do scopo da função changeColor()
   function changeColor() {
     let color = 'purple';
     const age = 19;
     console.log(age);
   }
+
   lol();
   changeColor();
-  age; //DOES NOT EXIST!
-  color; //DOES NOT EXIST!
-  person; //DOES NOT EXIST!
+  // age; Não existe
+  // color; // Não existe
+  // person; // Não existe
   
   
   let bird = 'mandarin duck';
   
   function birdWatch() {
-    //this bird is scoped to birdWatch()
+    // variável bird é do scopo birdWatch()
     let bird = 'golden pheasant';
-    console.log(bird); //"golden pheasant"
+    console.log(bird); // golden pheasant
   }
   birdWatch();
-  console.log(bird); //"mandarin duck"
+  console.log(bird); // mandarin duck

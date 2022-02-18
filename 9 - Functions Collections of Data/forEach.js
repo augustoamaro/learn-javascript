@@ -1,6 +1,8 @@
+// Aceita uma função de callback. Chama a função uma por elemento do array
+
 const numbers = [20, 21, 22, 23, 24, 25, 26, 27];
 
-// Using anonymous function expression:
+// Usando anonymous function
 numbers.forEach(function (num) {
   console.log(num * 2);
 })
@@ -9,14 +11,13 @@ function printTriple(n) {
   console.log(n * 3);
 }
 
-// Using a pre-defined function:
+// Usando uma função pre-definida
 numbers.forEach(printTriple);
 
-// Using the index:
+// Usando index
 numbers.forEach(function (num, idx) {
   console.log(idx, num);
 });
-
 
 
 const books = [{
@@ -41,17 +42,17 @@ const books = [{
   }
 ]
 
-// Printing all book titles using forEach:
+// printando todos os títulos do livro usando forEach
 books.forEach(function (book) {
   console.log(book.title.toUpperCase())
 })
 
-// Printing all book titles using for...of:
+// printando todos os títulos do livro usando for...of
 for (let book of books) {
   console.log(book.title.toUpperCase())
 }
 
-// Printing all book titles using for loop:
+// printando todos os títulos do livro usando for loop
 for (let i = 0; i < books.length; i++) {
   console.log(books[i].title.toUpperCase())
 }

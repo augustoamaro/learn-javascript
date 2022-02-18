@@ -1,9 +1,11 @@
+// Cria um novo array com os resultados chamando um callback em todo elemento do array
+// Cria um novo array de um array existente
+
 const numbers = [20, 21, 22, 23, 24, 25, 26, 27];
 const words = ['asap', 'byob', 'rsvp', 'diy'];
 
-//Map creates a new array by calling your callback function with each element in the original array.
 const doubles = numbers.map(function (num) {
-  return num * 2; //Need to return the value!
+  return num * 2; // Precisa retornar o valor
 });
 //[40, 42, 44, 46, 48, 50, 52, 54]
 
@@ -14,6 +16,8 @@ const numDetail = numbers.map(function (n) {
   }
 })
 
+console.log(numDetail);
+
 const abbrevs = words.map(function (word) {
   return word.toUpperCase().split('').join('.');
 })
@@ -21,25 +25,25 @@ const abbrevs = words.map(function (word) {
 
 
 const books = [{
-    title: 'Good Omens',
-    authors: ['Terry Pratchett', 'Neil Gaiman'],
-    rating: 4.25
-  },
-  {
-    title: 'Bone: The Complete Edition',
-    authors: ['Jeff Smith'],
-    rating: 4.42
-  },
-  {
-    title: 'American Gods',
-    authors: ['Neil Gaiman'],
-    rating: 4.11
-  },
-  {
-    title: 'A Gentleman in Moscow',
-    authors: ['Amor Towles'],
-    rating: 4.36
-  }
+  title: 'Good Omens',
+  authors: ['Terry Pratchett', 'Neil Gaiman'],
+  rating: 4.25
+},
+{
+  title: 'Bone: The Complete Edition',
+  authors: ['Jeff Smith'],
+  rating: 4.42
+},
+{
+  title: 'American Gods',
+  authors: ['Neil Gaiman'],
+  rating: 4.11
+},
+{
+  title: 'A Gentleman in Moscow',
+  authors: ['Amor Towles'],
+  rating: 4.36
+}
 ]
 
 const titles = books.map(function (b) {

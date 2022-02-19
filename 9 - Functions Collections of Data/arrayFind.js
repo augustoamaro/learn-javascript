@@ -1,3 +1,5 @@
+// retorna o valor do primeiro elemento no array
+
 let movies = [
   "The Fantastic Mr. Fox",
   "Mr. and Mrs. Smith",
@@ -5,12 +7,12 @@ let movies = [
   "Mr. Deeds"
 ]
 
-// Find first movie that includes 'Mrs' in its title:
+// Encontra o primeiro filme que inclui 'Mrs
 const movie = movies.find(movie => {
   return movie.includes('Mrs');
 })
 
-//Find first movie that begins with 'Mrs':
+// Encontra o primeiro filme que começa com 'Mrs'
 const movie2 = movies.find(m => m.indexOf("Mrs") === 0);
 
 const books = [{
@@ -34,10 +36,14 @@ const books = [{
   rating: 4.36
 }
 ]
-//Find first book w/ rating over 4.3
+// Encontra o primeiro livro com rating maior que 4.3
 const goodBook = books.find(b => b.rating >= 4.3);
 
-//Find first book with Neil Gaiman as an author:
+console.log(goodBook)
+
+// Encontra o primeiro livro com Neil Gaiman como author
 const neilBook = books.find(b => (
   b.authors.includes('Neil Gaiman')
 ))
+
+console.log(neilBook)

@@ -1,0 +1,23 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}

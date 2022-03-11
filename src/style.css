@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #13111a;
+  color: #fff;
+  padding: 80px 40px 118px 50px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.name {
+  margin-bottom: 20px
+}
+
+.name h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.name p {
+  font-size: 25px;
+  color: #b7b4c7;
+}
+
+.social-icons i {
+  margin-bottom: 80px;
+  padding: 5px 5px 5px 0;
+  color: #b7b4c7
+}
+
+.about h2 {
+  margin-bottom: 15px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+.cards-title {
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  padding: 20px 32px 56px;
+  background-color: #1d1a27;
+  border: 2px solid hsla(0, 0%, 100%, .06);
+  border-radius: 22px;
+  box-shadow: 0 10px 34px 0 rgb(0, 0, 0 / 35%);
+}
+
+.card h4 {
+  font-size: 18px;
+  color: #6648b6;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 100px;
+}
+
+

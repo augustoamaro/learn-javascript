@@ -37,6 +37,10 @@ body {
   margin-bottom: 50px;
 }
 
+.card-container {
+  display: table;
+}
+
 .cards-title {
   margin-bottom: 50px;
 }

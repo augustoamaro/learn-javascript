@@ -27,3 +27,8 @@ const isRain = false;
 if (!isRain) {
     console.log('Não está chovendo');
 }
+
+const listenMusic = true;
+if (listenMusic) {
+    console.log('Está escutando música')
+}

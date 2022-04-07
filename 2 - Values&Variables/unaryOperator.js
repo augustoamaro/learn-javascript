@@ -3,10 +3,10 @@
 let score = 0;
 score = score + 10;
 score += 1; // Mesma coisa que score = score + 1
+console.log(score)
 
-let counter = 0;
-counter++; // Incrementa o valor
+score++; // Incrementa o valor
+console.log(score)
 
-let counter = 0;
-counter--; // Decrementa o valor
-
+score--; // Decrementa o valor
+console.log(score)

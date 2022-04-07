@@ -17,3 +17,14 @@ for (let prop in jeopardyWinnings) {
 }
 
 console.log(`Ken Jennings Total Earnings: ${total}`);
+
+
+const alunos = {
+    nome: 'Jurandir',
+    sobreNome: 'Silva',
+    nota: 9.5
+}
+
+for (let aluno in alunos) {
+    console.log(alunos[aluno])
+}
